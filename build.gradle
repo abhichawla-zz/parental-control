@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+jar {
+   baseName = 'parental-control'
+   version = '0.1'
+}
+
+repositories {
+  mavenCentral()
+}
+
+project.ext.sourceCompability = 1.8
+project.ext.targetCompability = 1.8
+
+dependencies {
+    compile group: 'commons-collections', name: 'commons-collections', version: '3.2.2'
+    compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
+}
