@@ -1,6 +1,5 @@
 package abhishek.parental.control.service;
 
-import abhishek.parental.control.MovieService;
 import abhishek.parental.control.exception.TechnicalFailureException;
 import abhishek.parental.control.exception.TitleNotFoundException;
 import abhishek.parental.control.util.ParentalControlComparator;

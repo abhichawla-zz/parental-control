@@ -1,4 +1,4 @@
-package abhishek.parental.control;
+package abhishek.parental.control.service;
 
 import abhishek.parental.control.exception.TechnicalFailureException;
 import abhishek.parental.control.exception.TitleNotFoundException;
